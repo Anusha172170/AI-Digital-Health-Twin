@@ -1,56 +1,73 @@
-# 🧬 AI Digital Health Twin for Predictive Healthcare
+# AI Digital Health Twin
 
-> **Department of CSE - Artificial Intelligence & Machine Learning**  
-> **Vasireddy Venkatadri Institute of Technology (VVIT)**  
-> **Major Project | Batch ID: AIML-C-13**
+## System Architecture
 
----
-
-## 📌 Project Overview
-
-An **AI-Based Digital Health Twin** that creates a dynamic, personalized virtual replica of a patient's health by continuously collecting physiological data from IoMT devices (Heart Rate, SpO₂, Blood Pressure, Glucose), applying Machine Learning to predict multi-disease risks (Cardiovascular Disease, Type-2 Diabetes, Hypertension), and enabling "what-if" lifestyle trajectory simulations for preventive healthcare.
-
----
-
-## 🏗️ System Architecture
-
-The system follows a **4-Layer Distributed Architecture**:
+The project follows a layered architecture connecting IoMT data sources, a mobile client, backend services, machine-learning components, and cloud storage.
 
 ```mermaid
 flowchart TB
-    subgraph L1[" Layer 1: Data Acquisition (IoMT Layer) "]
-        direction LR
-        S1[Pulse Oximeter]
-        S2[Heart Rate Monitor]
-        S3[Glucose Sensor]
-        S4[ESP32 / Vitals Simulator]
+    subgraph Acquisition["1. IoMT Data Acquisition Layer"]
+        HR[Heart Rate Sensor]
+        SPO2[SpO2 Sensor]
+        BP[Blood Pressure Monitor]
+        GLU[Glucose Monitor]
+        SIM[Sensor Data Simulator]
+        ESP[ESP32 Gateway]
     end
 
-    subgraph L2[" Layer 2: Presentation Layer (Mobile App) "]
-        direction TB
-        UI1[Twin Avatar Dashboard]
-        UI2[AI Disease Risk & XAI]
-        UI3[What-If Trajectory Simulator]
+    subgraph Client["2. Client Layer"]
+        APP[Mobile Application]
+        AUTH[Firebase Authentication]
+        NOTIFY[Push Notification Handler]
     end
 
-    subgraph L3[" Layer 3: Backend & AI Engine (FastAPI) "]
-        direction TB
-        API[FastAPI REST Services]
-        ML[XGBoost & Scikit-Learn Models]
-        XAI[SHAP Explainable AI Engine]
-        SIM[Biological Age Engine]
+    subgraph Backend["3. Backend Service Layer"]
+        API[FastAPI REST API]
+        VALIDATE[Data Validation]
+        VITALS[Vitals Processing Service]
+        TWIN[Digital Twin Service]
+        ALERT[Alert Detection Service]
     end
 
-    subgraph L4[" Layer 4: Cloud & Database Layer "]
-        direction LR
+    subgraph Intelligence["4. AI and Simulation Layer"]
+        PRE[Data Preprocessing]
+        ML[Machine Learning Models]
+        XAI[SHAP Explainability]
+        WHATIF[What-If Simulation Engine]
+    end
+
+    subgraph Cloud["5. Cloud and Storage Layer"]
         DB[(MongoDB Atlas)]
-        FB[(Firebase Auth & FCM)]
+        FIREBASE[Firebase Auth and FCM]
     end
 
-    S1 & S2 & S3 --> S4
-    S4 -->|HTTP / Vitals Stream| API
-    UI1 & UI2 & UI3 <-->|REST API Calls| API
-    API --> ML --> XAI
-    API --> SIM
-    API <--> DB
-    API --> FB
+    HR --> ESP
+    SPO2 --> ESP
+    BP --> ESP
+    GLU --> ESP
+    SIM --> API
+    ESP -->|HTTP or MQTT| API
+
+    APP -->|Authentication| AUTH
+    AUTH --> FIREBASE
+    APP -->|REST API Requests| API
+
+    API --> VALIDATE
+    VALIDATE --> VITALS
+    VITALS --> PRE
+    PRE --> ML
+    ML --> XAI
+    ML --> TWIN
+    XAI --> TWIN
+
+    APP -->|Lifestyle Parameters| WHATIF
+    WHATIF --> ML
+    WHATIF -->|Simulation Result| APP
+
+    VITALS --> DB
+    TWIN --> DB
+    API --> DB
+
+    VITALS --> ALERT
+    ALERT -->|Critical Event| FIREBASE
+    FIREBASE -->|FCM Notification| NOTIFY
