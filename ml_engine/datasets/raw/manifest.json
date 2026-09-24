@@ -1,0 +1,53 @@
+{
+  "diabetes": {
+    "url": "https://raw.githubusercontent.com/jbrownlee/Datasets/d20fcb6402ae34e653d4513b00f39257bb37ed7f/pima-indians-diabetes.data.csv",
+    "mirror_repository": "jbrownlee/Datasets",
+    "commit": "d20fcb6402ae34e653d4513b00f39257bb37ed7f",
+    "transport": "github_contents_api",
+    "sha256": "6bfe5d0f379d17a0e0819b996407e3c09bf80febd4287f2ed212190dfff154af",
+    "downloaded_at": "2026-09-19T17:28:22.314532+00:00",
+    "rows": 768,
+    "columns": [
+      "pregnancies",
+      "glucose",
+      "diastolic_bp",
+      "skin_thickness",
+      "insulin",
+      "bmi",
+      "pedigree",
+      "age",
+      "Outcome"
+    ],
+    "source_file": "diabetes_source.csv",
+    "note": "Public benchmark mirror, not a direct download from original clinical institution. No synthetic rows. Upstream dataset rights require review before redistribution beyond this research repository."
+  },
+  "framingham": {
+    "url": "https://raw.githubusercontent.com/OpenMined/TenSEAL/c962074f0aa82cf30eeaddf17af887a8ea0e66fe/tutorials/data/framingham.csv",
+    "mirror_repository": "OpenMined/TenSEAL",
+    "commit": "c962074f0aa82cf30eeaddf17af887a8ea0e66fe",
+    "transport": "github_contents_api",
+    "sha256": "40921748dbdf6587045b9822414199a1ae3349358b63b975ab2208aa3cccc45b",
+    "downloaded_at": "2026-09-19T17:28:22.684096+00:00",
+    "rows": 4238,
+    "columns": [
+      "male",
+      "age",
+      "education",
+      "currentSmoker",
+      "cigsPerDay",
+      "BPMeds",
+      "prevalentStroke",
+      "prevalentHyp",
+      "diabetes",
+      "totChol",
+      "sysBP",
+      "diaBP",
+      "BMI",
+      "heartRate",
+      "glucose",
+      "TenYearCHD"
+    ],
+    "source_file": "framingham_source.csv",
+    "note": "Public benchmark mirror, not a direct download from original clinical institution. No synthetic rows. Upstream dataset rights require review before redistribution beyond this research repository."
+  }
+}

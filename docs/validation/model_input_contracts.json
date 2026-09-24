@@ -1,0 +1,178 @@
+{
+  "diabetes": {
+    "target": "Outcome",
+    "target_definition": "PIMA recorded diabetes status; not prospective diabetes incidence",
+    "features": {
+      "pregnancies": {
+        "unit": "count",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "glucose": {
+        "unit": "mg/dL",
+        "context": "two_hour_ogtt_plasma",
+        "required": true
+      },
+      "diastolic_bp": {
+        "unit": "mmHg",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "skin_thickness": {
+        "unit": "mm",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "insulin": {
+        "unit": "uU/mL",
+        "context": "two_hour_insulin",
+        "required": true
+      },
+      "bmi": {
+        "unit": "kg/m2",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "pedigree": {
+        "unit": "dimensionless",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "age": {
+        "unit": "years",
+        "context": "clinical_baseline",
+        "required": true
+      }
+    },
+    "clinical_deployment_allowed": false
+  },
+  "cvd": {
+    "target": "TenYearCHD",
+    "target_definition": "Recorded ten-year coronary heart disease outcome, not all CVD",
+    "features": {
+      "male": {
+        "unit": "binary",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "age": {
+        "unit": "years",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "education": {
+        "unit": "category",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "currentSmoker": {
+        "unit": "binary",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "cigsPerDay": {
+        "unit": "count/day",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "BPMeds": {
+        "unit": "binary",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "prevalentStroke": {
+        "unit": "binary",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "prevalentHyp": {
+        "unit": "binary",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "diabetes": {
+        "unit": "binary",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "totChol": {
+        "unit": "mg/dL",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "sysBP": {
+        "unit": "mmHg",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "diaBP": {
+        "unit": "mmHg",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "BMI": {
+        "unit": "kg/m2",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "heartRate": {
+        "unit": "bpm",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "glucose": {
+        "unit": "mg/dL",
+        "context": "clinical_baseline",
+        "required": true
+      }
+    },
+    "clinical_deployment_allowed": false
+  },
+  "hypertension": {
+    "target": "prevalentHyp",
+    "target_definition": "Exploratory prevalent hypertension classification; NOT future risk. BP, BP medication and future CHD excluded",
+    "features": {
+      "male": {
+        "unit": "binary",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "age": {
+        "unit": "years",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "currentSmoker": {
+        "unit": "binary",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "cigsPerDay": {
+        "unit": "count/day",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "totChol": {
+        "unit": "mg/dL",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "BMI": {
+        "unit": "kg/m2",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "heartRate": {
+        "unit": "bpm",
+        "context": "clinical_baseline",
+        "required": true
+      },
+      "glucose": {
+        "unit": "mg/dL",
+        "context": "clinical_baseline",
+        "required": true
+      }
+    },
+    "clinical_deployment_allowed": false
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "dataset": "WISDM Smartphone and Smartwatch Activity and Biometrics",
+  "doi": "10.24432/C5HK59",
+  "license": "CC BY 4.0 (UCI dataset page)",
+  "author": "Gary Weiss (2019)",
+  "upstream": "https://archive.ics.uci.edu/dataset/507/",
+  "mirror": "kseniacold/aai_530_dataset_static",
+  "commit": "e70750583775ab997853a9aca57c4a45d934346c",
+  "downloaded_at": "2026-09-24T16:21:40.925541+00:00",
+  "scope": "All 50 watch accelerometer ARFF files in this pinned mirror; subject 1614 absent. Not the full 51-participant/four-stream raw release.",
+  "files": [
+    {
+      "file": "data_1600_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1600_accel_watch.arff",
+      "bytes": 217032,
+      "sha256": "e58956694617102fbe91722ea2cd2698bd613b019af6e57473bd48bc1d74a73f",
+      "github_blob_sha": "06d741d0654ac3e4e053b7f41692d9d60f21b81b"
+    },
+    {
+      "file": "data_1601_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1601_accel_watch.arff",
+      "bytes": 213873,
+      "sha256": "421fde6db3d245c91e840f99a75766d9868ea53e1a29d09d9c1e5c696b28f844",
+      "github_blob_sha": "6f8ff0f9e1ba98eb79a95f8b110d07c04f0d8ff1"
+    },
+    {
+      "file": "data_1602_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1602_accel_watch.arff",
+      "bytes": 216199,
+      "sha256": "a14a64459c72d4c36f61b7538299797fd0abd1b03b4a7d0387194366b189e5f9",
+      "github_blob_sha": "0c26c73adf6bb944df8c56bf1b80336d5f7dc88d"
+    },
+    {
+      "file": "data_1603_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1603_accel_watch.arff",
+      "bytes": 214317,
+      "sha256": "908f79602d96ce45304229e1998738abcaea051133559c312ddc3ad30090d1e8",
+      "github_blob_sha": "b19638170a5885e186eaf3dde79c2a0a5612322e"
+    },
+    {
+      "file": "data_1604_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1604_accel_watch.arff",
+      "bytes": 216685,
+      "sha256": "7ca5da05734dd8ee226e22c98e25eca300ad105f01ec9f60f3094aa0ac5a2829",
+      "github_blob_sha": "27a6a3908a9905c2b83b846234f148fea71da37e"
+    },
+    {
+      "file": "data_1605_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1605_accel_watch.arff",
+      "bytes": 217799,
+      "sha256": "82a971cc900814a8e8c59072fad20d1d9fd7b0f63e081afa42d54e747baa8a7a",
+      "github_blob_sha": "af29d01ec772a01f0960e0b80c0e9cd2dda8718d"
+    },
+    {
+      "file": "data_1606_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1606_accel_watch.arff",
+      "bytes": 216974,
+      "sha256": "2cf90f18fdba323c62fce41af105d416424c79dbc151a60acc2a606c48126aba",
+      "github_blob_sha": "e04fd42ef8bfeef2843627da435373ebf3f3d470"
+    },
+    {
+      "file": "data_1607_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1607_accel_watch.arff",
+      "bytes": 218347,
+      "sha256": "7c709f774d945385500904389698cfa4143c6539ad4ac821333290cd2227361f",
+      "github_blob_sha": "be7fda9256b513828ca97759a80731afb468edf7"
+    },
+    {
+      "file": "data_1608_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1608_accel_watch.arff",
+      "bytes": 224722,
+      "sha256": "36529c28b9f79bae1d3dd0e70eb18f4ac0c80a10f8a933d72b904e3506a69dae",
+      "github_blob_sha": "377e14c85d2a7307fa0e5051b8dc1ae1cfec6ff4"
+    },
+    {
+      "file": "data_1609_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1609_accel_watch.arff",
+      "bytes": 233469,
+      "sha256": "a20ee9da0e2d31ad4059b92b584ff94fee7367a71f3c78adae59d5f30293a11b",
+      "github_blob_sha": "a87e20f99db8fe9917f89cd8c0b9bf8fe1c2ceea"
+    },
+    {
+      "file": "data_1610_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1610_accel_watch.arff",
+      "bytes": 215119,
+      "sha256": "1cc42a030240eaf890587dcda5e7d34522aeafdee8965cbf4deeffdac25213e8",
+      "github_blob_sha": "186173801eebf9f029a0f5a068d1fee63fd5b9bc"
+    },
+    {
+      "file": "data_1611_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1611_accel_watch.arff",
+      "bytes": 214851,
+      "sha256": "1aa07a1a8bbb367cb5b6f54cb9cc7cf4199a7d9f0d94c8a854eb85c5d906283c",
+      "github_blob_sha": "214679ec6663fcc0bb6b74dc4d98feed3f44d7e4"
+    },
+    {
+      "file": "data_1612_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1612_accel_watch.arff",
+      "bytes": 212357,
+      "sha256": "a616fbaf6e2c17a25d92a50d76a2975f8da70ecbe975cdc37f490cb83aa4854b",
+      "github_blob_sha": "7e5c94e989d4a4be8842052076f8054355f6a972"
+    },
+    {
+      "file": "data_1613_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1613_accel_watch.arff",
+      "bytes": 213685,
+      "sha256": "495a4acdf4ade5bad5d60b398d9f145391348b77319465891727e414bbb2ee36",
+      "github_blob_sha": "951183e7e3f4dd61bd6b3c7dab5772fb29b7b1ed"
+    },
+    {
+      "file": "data_1615_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1615_accel_watch.arff",
+      "bytes": 215623,
+      "sha256": "fdc9b3eac018055b783fd56936ede0c7714723af4c4ff947a2b1b57d34a47581",
+      "github_blob_sha": "8019623799791015cedfdffbc211adcad8f2e508"
+    },
+    {
+      "file": "data_1616_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1616_accel_watch.arff",
+      "bytes": 202125,
+      "sha256": "e3d8895bb04a70b065fa6736f4260b95ddc7dd07ae55f6578a84c5a6a487fb08",
+      "github_blob_sha": "65d232bb5e6d2206bcafeba5734853a28852555f"
+    },
+    {
+      "file": "data_1617_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1617_accel_watch.arff",
+      "bytes": 219982,
+      "sha256": "df16f24039734480841d802433f174d34ab71abea765bc78dc9be328dd5f5aa3",
+      "github_blob_sha": "07fd3fd3231103ef385f1edda4aacce36300f427"
+    },
+    {
+      "file": "data_1618_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1618_accel_watch.arff",
+      "bytes": 201493,
+      "sha256": "53d24c6d45b0b29fa72b48a58e28cb747557f4ae2cf1ed58a35963d1d1638cff",
+      "github_blob_sha": "b5e13d31351199477e80b62aeb07a5dfdbaa901c"
+    },
+    {
+      "file": "data_1619_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1619_accel_watch.arff",
+      "bytes": 212954,
+      "sha256": "ac58d68e5061d85b4beecda17d8bc46ea8e11154896425d0c2f95d0fa2a7fdaa",
+      "github_blob_sha": "95f6bff883ade2a8b5972a47db26c01ca0c6b2d9"
+    },
+    {
+      "file": "data_1620_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1620_accel_watch.arff",
+      "bytes": 223169,
+      "sha256": "a6b8df6e5d879552908c14b5067b6322fc104f2a760f3f3c693be22d69dab020",
+      "github_blob_sha": "ca02e2546fceaf7a347095da9e23165cfd5dace1"
+    },
+    {
+      "file": "data_1621_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1621_accel_watch.arff",
+      "bytes": 235528,
+      "sha256": "b85b211a7830c3e4f8d3686818b202126ca9e178eedbf4c2bb2833c1f8c45fb7",
+      "github_blob_sha": "75fcd0661e548dc195c5c368202d1c6fc22035da"
+    },
+    {
+      "file": "data_1622_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1622_accel_watch.arff",
+      "bytes": 215355,
+      "sha256": "a91e16ffb52b72418e1dbbe9e1b4f63dfd5eb161bc79ee112ff343507cb14b3d",
+      "github_blob_sha": "133b53adcf1e6218cc8d694c275df6efb0105e55"
+    },
+    {
+      "file": "data_1623_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1623_accel_watch.arff",
+      "bytes": 214623,
+      "sha256": "f400af4ec74b98f775d826ef1dd8f266023d73c2c2bb66f2b0a19ad4a48fb892",
+      "github_blob_sha": "5173a99adfeca9319ad4f38cc969e077b1e98b3d"
+    },
+    {
+      "file": "data_1624_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1624_accel_watch.arff",
+      "bytes": 232994,
+      "sha256": "a44b2ed655c06d525f56d65a22eeccee12becab6497406e7c5f47c62b5597daa",
+      "github_blob_sha": "c52d768158c5967eadeb5c7e965ca3ecd40faae0"
+    },
+    {
+      "file": "data_1625_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1625_accel_watch.arff",
+      "bytes": 221201,
+      "sha256": "fa6a2df5e100044af9c3f72197cee818282976b1d0c9acfe772d25374a0a45f5",
+      "github_blob_sha": "496ad92fbc72bbd52b676377f8bde4589baf525b"
+    },
+    {
+      "file": "data_1626_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1626_accel_watch.arff",
+      "bytes": 221411,
+      "sha256": "16019e05b00a65af4a8d8f5776fad5457795cd7a9e1007bf6b023d254ac61af8",
+      "github_blob_sha": "7518c697661d953cadec83c0e2aaf8227c3addcf"
+    },
+    {
+      "file": "data_1627_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1627_accel_watch.arff",
+      "bytes": 215356,
+      "sha256": "7e8ec87c95ccbde283f69ef5ee1a7a5edf9ba836991edc08a92c7e79f2db2916",
+      "github_blob_sha": "f71e19196ad0e7831b40d970e3bb92ec0f45ac81"
+    },
+    {
+      "file": "data_1628_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1628_accel_watch.arff",
+      "bytes": 232503,
+      "sha256": "04f75749d5d6696e3e04bdd743b603091aa3d7c811af5098843b2cbe4bccaad2",
+      "github_blob_sha": "e5d8cb49dff6c1bd8e7e0c648204b629989c722c"
+    },
+    {
+      "file": "data_1629_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1629_accel_watch.arff",
+      "bytes": 212976,
+      "sha256": "a984917912670c4c58634c35b0054e8c634ac2bb4e9f59d90e0e977c5e5e1251",
+      "github_blob_sha": "968aca14640499ce5c6ce8ff665f4b52d68458fd"
+    },
+    {
+      "file": "data_1630_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1630_accel_watch.arff",
+      "bytes": 215183,
+      "sha256": "d66a2bf87841c1d77e85f6530c86125c255c50bee57f70724198bae9c1a3065c",
+      "github_blob_sha": "c99a380b805d220920ff684ef0a1df5d708d355e"
+    },
+    {
+      "file": "data_1631_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1631_accel_watch.arff",
+      "bytes": 214605,
+      "sha256": "a519ed9907d079619dc7348cc0bbcafbe653bfab96b000ffc6decdd6fff6b6a9",
+      "github_blob_sha": "d28d79b137958a122b8573d29a63b17123368c8f"
+    },
+    {
+      "file": "data_1632_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1632_accel_watch.arff",
+      "bytes": 214414,
+      "sha256": "3a6a0d38e7c55d9bec75c21b9ffe009ae4c872c6f1c92dbe8e07a8449cc0540c",
+      "github_blob_sha": "8ea137770beecce0c79ae469a6f1cb38b75a6800"
+    },
+    {
+      "file": "data_1633_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1633_accel_watch.arff",
+      "bytes": 214347,
+      "sha256": "42d9467c47a08ca469b5afa7878597a901ae1b280abc7336dd7bdf72dfa64c92",
+      "github_blob_sha": "683fdb5d20d1312c71d5bbbd77b5693b029ca671"
+    },
+    {
+      "file": "data_1634_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1634_accel_watch.arff",
+      "bytes": 216434,
+      "sha256": "f06465e54c4189a921f5431deffba9b52307c4144b57369f28c66d66745d147c",
+      "github_blob_sha": "0764fe5de67a713f86fad285c1e09ecc5402b35b"
+    },
+    {
+      "file": "data_1635_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1635_accel_watch.arff",
+      "bytes": 214484,
+      "sha256": "235e067225ac22fc721441a4b0a1633bca9f49f63b0ed2e90bd92117718df3e3",
+      "github_blob_sha": "735381c754de0870e6b1bc3fd8f8f9c846743a59"
+    },
+    {
+      "file": "data_1636_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1636_accel_watch.arff",
+      "bytes": 215756,
+      "sha256": "a3cc615c0acee4fe07bcd7dcb026fc1a9180edbb9e883de4244f0cb0e75bd2e7",
+      "github_blob_sha": "c1c4a0069693de596a7c0357ec1d788ec8c8bcea"
+    },
+    {
+      "file": "data_1637_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1637_accel_watch.arff",
+      "bytes": 494177,
+      "sha256": "5822e0fc308811d29a89e4a8ace635edee4fd796463158be558ed48544892c79",
+      "github_blob_sha": "6ac601634cdec298366394d2c8c55975900553e0"
+    },
+    {
+      "file": "data_1638_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1638_accel_watch.arff",
+      "bytes": 514279,
+      "sha256": "600ac8471499c2baf248de2d839b7a31f4a53a99a16cd78fed0ef194f72c0607",
+      "github_blob_sha": "fc960b309a3c553d52dfefbf475d2346ffe2c04d"
+    },
+    {
+      "file": "data_1639_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1639_accel_watch.arff",
+      "bytes": 485741,
+      "sha256": "62601f5ccfda03035ae10faa0a51cf963ff966f008c39dff1f132afa1df6a3bf",
+      "github_blob_sha": "754ae25175d34eadf98640c757257908876a35bc"
+    },
+    {
+      "file": "data_1640_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1640_accel_watch.arff",
+      "bytes": 513981,
+      "sha256": "737cc2d838f2ade948bf354c15250ddf85b2447a96ae90815b51e0e724def55f",
+      "github_blob_sha": "cbaef128f6b5788b0b8804985df1a68e9461c23f"
+    },
+    {
+      "file": "data_1641_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1641_accel_watch.arff",
+      "bytes": 214786,
+      "sha256": "37864fe5848a6f82ad0dce6e9196e40ff5231debbcd43586ca279fda7df9d04b",
+      "github_blob_sha": "b14dc1f9808187d7b3f80147c42f4ba1ca28ca79"
+    },
+    {
+      "file": "data_1642_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1642_accel_watch.arff",
+      "bytes": 198423,
+      "sha256": "5cba2d61f5e733d2389ed09ef0f9fe8a82f87ae0ab3ef521c467f5898d66d5ef",
+      "github_blob_sha": "443b9f867f3d2087dd2c6e90c8e551b1276e7319"
+    },
+    {
+      "file": "data_1643_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1643_accel_watch.arff",
+      "bytes": 213979,
+      "sha256": "76feb3d43079b4bad7d46726ce0861d48f91d29a7a6b55be3b264ab1b989c513",
+      "github_blob_sha": "5e57ee13f6b0a91ca08e4b8bbada7fd7327e5292"
+    },
+    {
+      "file": "data_1644_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1644_accel_watch.arff",
+      "bytes": 228969,
+      "sha256": "2031924e9cb9c091ef348ad7c78fdc14666ac98889208984a0e88f89248bbca0",
+      "github_blob_sha": "83a6169c11c5105019c6b159d31b34f07f1a52a9"
+    },
+    {
+      "file": "data_1645_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1645_accel_watch.arff",
+      "bytes": 225763,
+      "sha256": "044151be469ccb82e058dadbcfd7d8ad613b98f5474af2f12ffef70562edded5",
+      "github_blob_sha": "98457df4afec43a89e45c29a0b2c7527af38802c"
+    },
+    {
+      "file": "data_1646_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1646_accel_watch.arff",
+      "bytes": 215660,
+      "sha256": "c4041a96e0c59d66e6c67793c8aa40df16460527124071297c74d857dcd7feee",
+      "github_blob_sha": "782f5419bf40307dbcd705c422d9868b5922088f"
+    },
+    {
+      "file": "data_1647_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1647_accel_watch.arff",
+      "bytes": 216607,
+      "sha256": "559b9b3f61f9ded55fd8eaed84f33ad7c28e6ef35831231a26990eb3bb7d2746",
+      "github_blob_sha": "15c2d112e79f6166db96e66787e8dde271d83985"
+    },
+    {
+      "file": "data_1648_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1648_accel_watch.arff",
+      "bytes": 211966,
+      "sha256": "16f33ac08c3d8b7240554743258c4a6b747712a7d99c2c2d1418dad48bff6203",
+      "github_blob_sha": "502f349a4f55fb42fcd2b33cf2f020353a16313e"
+    },
+    {
+      "file": "data_1649_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1649_accel_watch.arff",
+      "bytes": 216348,
+      "sha256": "1fcc417195151f480dd1cb1733bacef80a6bb25699e1cff34d5184acda22f662",
+      "github_blob_sha": "5d2cf2cde1e8c6065d301964dbb52a765835cbb1"
+    },
+    {
+      "file": "data_1650_accel_watch.arff",
+      "source_path": "wisdm-dataset/arff_files/watch/accel/data_1650_accel_watch.arff",
+      "bytes": 221144,
+      "sha256": "33405cef2088ba3bf828af1b453e22aa530c5f859cc7d5b37bf967109f8fc3ff",
+      "github_blob_sha": "170653d2a0fb5040f9c5b7aa848cad9f7305f865"
+    },
+    {
+      "file": "activity_key.txt",
+      "source_path": "wisdm-dataset/activity_key.txt",
+      "bytes": 210,
+      "sha256": "ddca4cfb34ea3c4642f73a22dc498e2d77f435be4e836f87f37c274ec5ee4c26",
+      "github_blob_sha": "eda69089a856751311455661969176bc286fbd9b"
+    },
+    {
+      "file": "README.txt",
+      "source_path": "wisdm-dataset/README.txt",
+      "bytes": 4640,
+      "sha256": "f81a5ddc010f0c089a1832165516ae1acd693cf5fb3fd303341e6f4be76607b7",
+      "github_blob_sha": "de672738c9d4bb66bd62551d84d4d81b43d49d31"
+    }
+  ]
+}

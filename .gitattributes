@@ -1,0 +1,5 @@
+ml_engine/** -text
+tests/ml_tests/** -text
+tests/wearable_tests/** -text
+docs/validation/** -text
+wearable_integration/** -text

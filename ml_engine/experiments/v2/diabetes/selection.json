@@ -1,0 +1,208 @@
+{
+  "selected_family": "extra_trees",
+  "sigmoid_calibration_selected": true,
+  "threshold": 0.30473558580824406,
+  "validation": {
+    "baseline": {
+      "threshold": 0.24000000000000005,
+      "accuracy": 0.7922077922077922,
+      "precision": 0.6375,
+      "recall": 0.9444444444444444,
+      "specificity": 0.71,
+      "f1": 0.7611940298507462,
+      "roc_auc": 0.8605555555555555,
+      "average_precision": 0.7359855828168674,
+      "brier_score": 0.15271589720473694,
+      "log_loss": 0.45415416642636697,
+      "confusion_matrix": [
+        [
+          71,
+          29
+        ],
+        [
+          3,
+          51
+        ]
+      ]
+    },
+    "logistic": {
+      "threshold": 0.2972592505726961,
+      "accuracy": 0.7727272727272727,
+      "precision": 0.6144578313253012,
+      "recall": 0.9444444444444444,
+      "specificity": 0.68,
+      "f1": 0.7445255474452555,
+      "roc_auc": 0.8640740740740741,
+      "average_precision": 0.7193415750635881,
+      "brier_score": 0.1569736521683289,
+      "log_loss": 0.48270562478885704,
+      "confusion_matrix": [
+        [
+          68,
+          32
+        ],
+        [
+          3,
+          51
+        ]
+      ]
+    },
+    "random_forest": {
+      "threshold": 0.30480121509283037,
+      "accuracy": 0.7272727272727273,
+      "precision": 0.5714285714285714,
+      "recall": 0.8888888888888888,
+      "specificity": 0.64,
+      "f1": 0.6956521739130435,
+      "roc_auc": 0.8248148148148149,
+      "average_precision": 0.6812631468096799,
+      "brier_score": 0.16744814360496324,
+      "log_loss": 0.50510493105358,
+      "confusion_matrix": [
+        [
+          64,
+          36
+        ],
+        [
+          6,
+          48
+        ]
+      ]
+    },
+    "extra_trees": {
+      "threshold": 0.4831136033754508,
+      "accuracy": 0.7662337662337663,
+      "precision": 0.618421052631579,
+      "recall": 0.8703703703703703,
+      "specificity": 0.71,
+      "f1": 0.7230769230769231,
+      "roc_auc": 0.8574074074074074,
+      "average_precision": 0.7479889124646082,
+      "brier_score": 0.185988394616811,
+      "log_loss": 0.558900914863103,
+      "confusion_matrix": [
+        [
+          71,
+          29
+        ],
+        [
+          7,
+          47
+        ]
+      ]
+    },
+    "hist_gradient": {
+      "threshold": 0.27442049030001925,
+      "accuracy": 0.7792207792207793,
+      "precision": 0.631578947368421,
+      "recall": 0.8888888888888888,
+      "specificity": 0.72,
+      "f1": 0.7384615384615385,
+      "roc_auc": 0.8424074074074074,
+      "average_precision": 0.7110951702928159,
+      "brier_score": 0.15370423002537054,
+      "log_loss": 0.46391394010141984,
+      "confusion_matrix": [
+        [
+          72,
+          28
+        ],
+        [
+          6,
+          48
+        ]
+      ]
+    },
+    "xgboost": {
+      "threshold": 0.49627506732940674,
+      "accuracy": 0.7597402597402597,
+      "precision": 0.6049382716049383,
+      "recall": 0.9074074074074074,
+      "specificity": 0.68,
+      "f1": 0.725925925925926,
+      "roc_auc": 0.8387037037037037,
+      "average_precision": 0.7369544068057634,
+      "brier_score": 0.17739053070545197,
+      "log_loss": 0.5326064229011536,
+      "confusion_matrix": [
+        [
+          68,
+          32
+        ],
+        [
+          5,
+          49
+        ]
+      ]
+    }
+  },
+  "calibrated_validation": {
+    "threshold": 0.30473558580824406,
+    "accuracy": 0.7662337662337663,
+    "precision": 0.618421052631579,
+    "recall": 0.8703703703703703,
+    "specificity": 0.71,
+    "f1": 0.7230769230769231,
+    "roc_auc": 0.8574074074074074,
+    "average_precision": 0.7479889124646082,
+    "brier_score": 0.14875188830163902,
+    "log_loss": 0.44358402796664814,
+    "confusion_matrix": [
+      [
+        71,
+        29
+      ],
+      [
+        7,
+        47
+      ]
+    ]
+  },
+  "search": {
+    "logistic": {
+      "parameters": {
+        "model__class_weight": null,
+        "model__C": 0.01
+      },
+      "cv_average_precision": 0.7078357346807648
+    },
+    "random_forest": {
+      "parameters": {
+        "model__min_samples_leaf": 3,
+        "model__max_depth": 3,
+        "model__class_weight": null
+      },
+      "cv_average_precision": 0.7355933845536015
+    },
+    "extra_trees": {
+      "parameters": {
+        "model__min_samples_leaf": 10,
+        "model__max_depth": 8,
+        "model__class_weight": "balanced"
+      },
+      "cv_average_precision": 0.7282401850442325
+    },
+    "hist_gradient": {
+      "parameters": {
+        "model__min_samples_leaf": 15,
+        "model__max_leaf_nodes": 7,
+        "model__learning_rate": 0.03,
+        "model__l2_regularization": 1
+      },
+      "cv_average_precision": 0.7196754422131763
+    },
+    "xgboost": {
+      "parameters": {
+        "model__subsample": 1,
+        "model__scale_pos_weight": 3,
+        "model__reg_lambda": 20,
+        "model__min_child_weight": 10,
+        "model__max_depth": 3,
+        "model__learning_rate": 0.05
+      },
+      "cv_average_precision": 0.7105281938082232
+    }
+  },
+  "selection_policy": "Maximum validation AP including baseline. Accept train-CV sigmoid calibration only if validation Brier improves and AP loss <= 0.01. Max-validation-F1 threshold.",
+  "test_caveat": "Previously inspected historical test split; exploratory comparison, not fresh external validation."
+}
