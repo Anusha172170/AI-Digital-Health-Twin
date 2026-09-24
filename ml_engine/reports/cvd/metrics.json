@@ -1,0 +1,150 @@
+{
+  "task": "cvd",
+  "meaning": "Recorded ten-year coronary heart disease outcome, not all CVD",
+  "selected_algorithm": "xgboost",
+  "selection": "Highest validation average precision; validation-max-F1 threshold",
+  "validation": {
+    "dummy": {
+      "threshold": 0.05,
+      "accuracy": 0.15212264150943397,
+      "precision": 0.15212264150943397,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.2640736949846469,
+      "roc_auc": 0.5,
+      "average_precision": 0.15212264150943397,
+      "brier_score": 0.12898141836332255,
+      "log_loss": 0.42637371378980793,
+      "confusion_matrix": [
+        [
+          0,
+          719
+        ],
+        [
+          0,
+          129
+        ]
+      ]
+    },
+    "logistic": {
+      "threshold": 0.16000000000000003,
+      "accuracy": 0.6768867924528302,
+      "precision": 0.2525597269624573,
+      "recall": 0.5736434108527132,
+      "specificity": 0.6954102920723226,
+      "f1": 0.35071090047393366,
+      "roc_auc": 0.6843268536188288,
+      "average_precision": 0.29727475568945255,
+      "brier_score": 0.12225272838078119,
+      "log_loss": 0.4016915405234866,
+      "confusion_matrix": [
+        [
+          500,
+          219
+        ],
+        [
+          55,
+          74
+        ]
+      ]
+    },
+    "xgboost": {
+      "threshold": 0.1,
+      "accuracy": 0.5294811320754716,
+      "precision": 0.21638655462184875,
+      "recall": 0.7984496124031008,
+      "specificity": 0.4812239221140473,
+      "f1": 0.34049586776859503,
+      "roc_auc": 0.6765856971892485,
+      "average_precision": 0.30094175443778837,
+      "brier_score": 0.12293604016304016,
+      "log_loss": 0.4043219983577728,
+      "confusion_matrix": [
+        [
+          346,
+          373
+        ],
+        [
+          26,
+          103
+        ]
+      ]
+    }
+  },
+  "test": {
+    "dummy": {
+      "threshold": 0.05,
+      "accuracy": 0.15212264150943397,
+      "precision": 0.15212264150943397,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.2640736949846469,
+      "roc_auc": 0.5,
+      "average_precision": 0.15212264150943397,
+      "brier_score": 0.12898141836332255,
+      "log_loss": 0.42637371378980793,
+      "confusion_matrix": [
+        [
+          0,
+          719
+        ],
+        [
+          0,
+          129
+        ]
+      ]
+    },
+    "logistic": {
+      "threshold": 0.16000000000000003,
+      "accuracy": 0.7028301886792453,
+      "precision": 0.27137546468401486,
+      "recall": 0.5658914728682171,
+      "specificity": 0.7273991655076495,
+      "f1": 0.36683417085427134,
+      "roc_auc": 0.6986447585470776,
+      "average_precision": 0.30908924066865334,
+      "brier_score": 0.12078388023988869,
+      "log_loss": 0.39690811647195834,
+      "confusion_matrix": [
+        [
+          523,
+          196
+        ],
+        [
+          56,
+          73
+        ]
+      ]
+    },
+    "xgboost": {
+      "threshold": 0.1,
+      "accuracy": 0.5247641509433962,
+      "precision": 0.20726495726495728,
+      "recall": 0.751937984496124,
+      "specificity": 0.48400556328233657,
+      "f1": 0.3249581239530988,
+      "roc_auc": 0.6860195577406174,
+      "average_precision": 0.3104905743232042,
+      "brier_score": 0.12030763179063797,
+      "log_loss": 0.3981838524341583,
+      "confusion_matrix": [
+        [
+          348,
+          371
+        ],
+        [
+          32,
+          97
+        ]
+      ]
+    }
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.2.0",
+    "shap": "0.51.0",
+    "joblib": "1.6.0"
+  }
+}

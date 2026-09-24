@@ -1,0 +1,9 @@
+{
+  "task": "diabetes",
+  "version": "experimental_v2",
+  "probability": 0.6700595699578222,
+  "positive": true,
+  "threshold": 0.30473558580824406,
+  "meaning": "PIMA recorded diabetes status; not prospective diabetes incidence",
+  "warning": "Research only; no clinical/external validation. Calibration is not certification."
+}

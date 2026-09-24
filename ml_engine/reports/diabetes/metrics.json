@@ -1,0 +1,150 @@
+{
+  "task": "diabetes",
+  "meaning": "PIMA recorded diabetes status; not prospective diabetes incidence",
+  "selected_algorithm": "logistic",
+  "selection": "Highest validation average precision; validation-max-F1 threshold",
+  "validation": {
+    "dummy": {
+      "threshold": 0.05,
+      "accuracy": 0.35064935064935066,
+      "precision": 0.35064935064935066,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.5192307692307693,
+      "roc_auc": 0.5,
+      "average_precision": 0.35064935064935066,
+      "brier_score": 0.22769480519480517,
+      "log_loss": 0.6478486125465845,
+      "confusion_matrix": [
+        [
+          0,
+          100
+        ],
+        [
+          0,
+          54
+        ]
+      ]
+    },
+    "logistic": {
+      "threshold": 0.24000000000000005,
+      "accuracy": 0.7922077922077922,
+      "precision": 0.6375,
+      "recall": 0.9444444444444444,
+      "specificity": 0.71,
+      "f1": 0.7611940298507462,
+      "roc_auc": 0.8605555555555555,
+      "average_precision": 0.7359855828168674,
+      "brier_score": 0.1527158972047369,
+      "log_loss": 0.45415416642636697,
+      "confusion_matrix": [
+        [
+          71,
+          29
+        ],
+        [
+          3,
+          51
+        ]
+      ]
+    },
+    "xgboost": {
+      "threshold": 0.19,
+      "accuracy": 0.7597402597402597,
+      "precision": 0.6024096385542169,
+      "recall": 0.9259259259259259,
+      "specificity": 0.67,
+      "f1": 0.7299270072992701,
+      "roc_auc": 0.8405555555555555,
+      "average_precision": 0.7205848115092679,
+      "brier_score": 0.1573934406042099,
+      "log_loss": 0.4672791063785553,
+      "confusion_matrix": [
+        [
+          67,
+          33
+        ],
+        [
+          4,
+          50
+        ]
+      ]
+    }
+  },
+  "test": {
+    "dummy": {
+      "threshold": 0.05,
+      "accuracy": 0.34415584415584416,
+      "precision": 0.34415584415584416,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.5120772946859904,
+      "roc_auc": 0.5,
+      "average_precision": 0.34415584415584416,
+      "brier_score": 0.22574675324675325,
+      "log_loss": 0.6438288774270636,
+      "confusion_matrix": [
+        [
+          0,
+          101
+        ],
+        [
+          0,
+          53
+        ]
+      ]
+    },
+    "logistic": {
+      "threshold": 0.24000000000000005,
+      "accuracy": 0.6623376623376623,
+      "precision": 0.5057471264367817,
+      "recall": 0.8301886792452831,
+      "specificity": 0.5742574257425742,
+      "f1": 0.6285714285714286,
+      "roc_auc": 0.7881561741079769,
+      "average_precision": 0.6760589736210916,
+      "brier_score": 0.17425192442925666,
+      "log_loss": 0.5178857631951685,
+      "confusion_matrix": [
+        [
+          58,
+          43
+        ],
+        [
+          9,
+          44
+        ]
+      ]
+    },
+    "xgboost": {
+      "threshold": 0.19,
+      "accuracy": 0.6623376623376623,
+      "precision": 0.5053763440860215,
+      "recall": 0.8867924528301887,
+      "specificity": 0.5445544554455446,
+      "f1": 0.6438356164383562,
+      "roc_auc": 0.7963758640014945,
+      "average_precision": 0.6893671138002792,
+      "brier_score": 0.17403891682624817,
+      "log_loss": 0.5209958553314209,
+      "confusion_matrix": [
+        [
+          55,
+          46
+        ],
+        [
+          6,
+          47
+        ]
+      ]
+    }
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.2.0",
+    "shap": "0.51.0",
+    "joblib": "1.6.0"
+  }
+}

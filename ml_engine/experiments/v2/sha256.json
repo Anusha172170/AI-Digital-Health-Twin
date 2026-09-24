@@ -1,0 +1,20 @@
+{
+  "cvd/model_bundle.pkl": "27410a64ae665f139beac0e0f4dacfbc09a5df41d29cf75f89eb7ef458f7e88c",
+  "cvd/logistic_candidate.pkl": "f57efcc1c87a63b9bd776380bdbc160626476121e3e676479661e28f2b8b44bd",
+  "cvd/random_forest_candidate.pkl": "526d2837070e81b0bb25c535ae13e362101ac518a8628739a3f440116a92da1b",
+  "cvd/extra_trees_candidate.pkl": "15b8c2254496a090b2d449d029e59cc714d264a7707b0e6923613562b5aca6a0",
+  "cvd/hist_gradient_candidate.pkl": "818a378e740e6e25340fc9ae31f77d887f4ee9bddca25ad575f45a1e5d9b6c02",
+  "cvd/xgboost_candidate.pkl": "5204b382f0f117ceb5b9498da1c8d25c897c8e433fe844ee4754c1d67c468990",
+  "diabetes/model_bundle.pkl": "249edcc1eb1c980f3e50d26d4495203cceb8a71dbd7b1ebc05751c0e11383653",
+  "diabetes/logistic_candidate.pkl": "e37ec1adcbdb7b9a3df7fb86c5bbe6fb494b7b597c9fd9245e829a5b7307856c",
+  "diabetes/random_forest_candidate.pkl": "dff25e5eceb9e469a3c2f36e8476e0a2c65f87035ebdbc4d8898ed78dfe506b0",
+  "diabetes/extra_trees_candidate.pkl": "28f754c92f5cf2d9a60c5e1036ac22d63e39d882fd082591ce926b97631ceb45",
+  "diabetes/hist_gradient_candidate.pkl": "71524edcb1cc6effef00f0c7174b0ca42e986dd1cb62bb2277ee25402e1c8d39",
+  "diabetes/xgboost_candidate.pkl": "ec373c3d418ed5c3c96286fd5c071bf7748d272b2abe72c2be6f7d442bb746b3",
+  "hypertension/model_bundle.pkl": "a61328851d3c30526e114a501d38d22862c3932b177ad29a1c824f61fd29ac88",
+  "hypertension/logistic_candidate.pkl": "10df68b137c733c1c91e26fb79854da8a5296e58bc37318a505577a3a265addc",
+  "hypertension/random_forest_candidate.pkl": "45030559c50c1d2e80d97a673cfa9eea0ac4b99113caf5998cf4679ef604a09f",
+  "hypertension/extra_trees_candidate.pkl": "d1e503d230f712cba715b1d6e69a256bc59ed44e40322cb2ff9cb11efc07cbb0",
+  "hypertension/hist_gradient_candidate.pkl": "d2a0d5210f5f8413e6dc71c68cd2468f7110c764932a485b7891c8776454710c",
+  "hypertension/xgboost_candidate.pkl": "0444f6d3bf7ad150492e9f0498cd8ed832b5ecc0320700bcd5cddcadec322f60"
+}

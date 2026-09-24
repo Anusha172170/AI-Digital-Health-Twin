@@ -1,0 +1,30 @@
+{
+  "file": "diabetes.csv",
+  "target": "Outcome",
+  "features": [
+    "pregnancies",
+    "glucose",
+    "diastolic_bp",
+    "skin_thickness",
+    "insulin",
+    "bmi",
+    "pedigree",
+    "age"
+  ],
+  "zero_missing": [
+    "glucose",
+    "diastolic_bp",
+    "skin_thickness",
+    "insulin",
+    "bmi"
+  ],
+  "meaning": "PIMA recorded diabetes status; not prospective diabetes incidence",
+  "seed": 42,
+  "original_rows": 768,
+  "retained_rows": 768,
+  "split_sizes": {
+    "train": 460,
+    "validation": 154,
+    "test": 154
+  }
+}

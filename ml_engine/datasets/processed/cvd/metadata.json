@@ -1,0 +1,38 @@
+{
+  "file": "framingham.csv",
+  "target": "TenYearCHD",
+  "features": [
+    "male",
+    "age",
+    "education",
+    "currentSmoker",
+    "cigsPerDay",
+    "BPMeds",
+    "prevalentStroke",
+    "prevalentHyp",
+    "diabetes",
+    "totChol",
+    "sysBP",
+    "diaBP",
+    "BMI",
+    "heartRate",
+    "glucose"
+  ],
+  "zero_missing": [
+    "totChol",
+    "sysBP",
+    "diaBP",
+    "BMI",
+    "heartRate",
+    "glucose"
+  ],
+  "meaning": "Recorded ten-year coronary heart disease outcome, not all CVD",
+  "seed": 42,
+  "original_rows": 4238,
+  "retained_rows": 4238,
+  "split_sizes": {
+    "train": 2542,
+    "validation": 848,
+    "test": 848
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "task": "hypertension",
+  "meaning": "Exploratory prevalent hypertension classification; NOT future risk. BP, BP medication and future CHD excluded",
+  "selected_algorithm": "logistic",
+  "selection": "Highest validation average precision; validation-max-F1 threshold",
+  "validation": {
+    "dummy": {
+      "threshold": 0.05,
+      "accuracy": 0.3113207547169811,
+      "precision": 0.3113207547169811,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.4748201438848921,
+      "roc_auc": 0.5,
+      "average_precision": 0.3113207547169811,
+      "brier_score": 0.21440101705740194,
+      "log_loss": 0.620155393379928,
+      "confusion_matrix": [
+        [
+          0,
+          584
+        ],
+        [
+          0,
+          264
+        ]
+      ]
+    },
+    "logistic": {
+      "threshold": 0.31000000000000005,
+      "accuracy": 0.7087264150943396,
+      "precision": 0.5230352303523035,
+      "recall": 0.7310606060606061,
+      "specificity": 0.6986301369863014,
+      "f1": 0.6097946287519748,
+      "roc_auc": 0.7840455064342052,
+      "average_precision": 0.6400257264247141,
+      "brier_score": 0.16648629476821067,
+      "log_loss": 0.5020012359665582,
+      "confusion_matrix": [
+        [
+          408,
+          176
+        ],
+        [
+          71,
+          193
+        ]
+      ]
+    },
+    "xgboost": {
+      "threshold": 0.33,
+      "accuracy": 0.7028301886792453,
+      "precision": 0.5164835164835165,
+      "recall": 0.7121212121212122,
+      "specificity": 0.6986301369863014,
+      "f1": 0.5987261146496815,
+      "roc_auc": 0.7750752386882525,
+      "average_precision": 0.6281534447779531,
+      "brier_score": 0.1695736199617386,
+      "log_loss": 0.5089972019195557,
+      "confusion_matrix": [
+        [
+          408,
+          176
+        ],
+        [
+          76,
+          188
+        ]
+      ]
+    }
+  },
+  "test": {
+    "dummy": {
+      "threshold": 0.05,
+      "accuracy": 0.31014150943396224,
+      "precision": 0.31014150943396224,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.4734473447344735,
+      "roc_auc": 0.5,
+      "average_precision": 0.31014150943396224,
+      "brier_score": 0.21395381310270867,
+      "log_loss": 0.619213981158141,
+      "confusion_matrix": [
+        [
+          0,
+          585
+        ],
+        [
+          0,
+          263
+        ]
+      ]
+    },
+    "logistic": {
+      "threshold": 0.31000000000000005,
+      "accuracy": 0.6474056603773585,
+      "precision": 0.45384615384615384,
+      "recall": 0.6730038022813688,
+      "specificity": 0.6358974358974359,
+      "f1": 0.5421133231240429,
+      "roc_auc": 0.7400539468980534,
+      "average_precision": 0.5407194362256778,
+      "brier_score": 0.18326796301837017,
+      "log_loss": 0.5413101563267029,
+      "confusion_matrix": [
+        [
+          372,
+          213
+        ],
+        [
+          86,
+          177
+        ]
+      ]
+    },
+    "xgboost": {
+      "threshold": 0.33,
+      "accuracy": 0.6709905660377359,
+      "precision": 0.4789473684210526,
+      "recall": 0.6920152091254753,
+      "specificity": 0.6615384615384615,
+      "f1": 0.5660964230171073,
+      "roc_auc": 0.7388450164115563,
+      "average_precision": 0.5237927239889602,
+      "brier_score": 0.1839897632598877,
+      "log_loss": 0.5431923270225525,
+      "confusion_matrix": [
+        [
+          387,
+          198
+        ],
+        [
+          81,
+          182
+        ]
+      ]
+    }
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.2.0",
+    "shap": "0.51.0",
+    "joblib": "1.6.0"
+  }
+}

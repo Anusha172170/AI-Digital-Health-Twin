@@ -1,0 +1,29 @@
+{
+  "file": "framingham.csv",
+  "target": "prevalentHyp",
+  "features": [
+    "male",
+    "age",
+    "currentSmoker",
+    "cigsPerDay",
+    "totChol",
+    "BMI",
+    "heartRate",
+    "glucose"
+  ],
+  "zero_missing": [
+    "totChol",
+    "BMI",
+    "heartRate",
+    "glucose"
+  ],
+  "meaning": "Exploratory prevalent hypertension classification; NOT future risk. BP, BP medication and future CHD excluded",
+  "seed": 42,
+  "original_rows": 4238,
+  "retained_rows": 4238,
+  "split_sizes": {
+    "train": 2542,
+    "validation": 848,
+    "test": 848
+  }
+}
